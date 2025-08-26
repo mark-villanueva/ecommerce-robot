@@ -16,7 +16,7 @@ ${Error_Message_Login}   css=.alert-danger
 
 *** Keywords ***
 Open the browser with the Mortgage payment url
-    Open Browser    ${URL}    Chrome
+    Open Browser    ${URL} 
 
 Fill the login form
     Input Text      id=username    rahulshettyacademy1

@@ -1,0 +1,77 @@
+1756202077080	geckodriver	INFO	Listening on 127.0.0.1:52667
+1756202080104	mozrunner::runner	INFO	Running command: "C:\\Users\\markg\\.cache\\selenium\\firefox\\win64\\142.0\\firefox.exe" "--marionette" "--remote-debugging- ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markg\\AppData\\Local\\Temp\\rust_mozprofileM1ybGH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1756202082395	Marionette	INFO	Marionette enabled
+1756202082639	Marionette	INFO	Listening on port 52786
+WebDriver BiDi listening on ws://127.0.0.1:52669
+Read port: 52786
+1756202083037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 3798
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
+1756202121547	Marionette	INFO	Stopped listening on port 52786
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no]
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"validateCollectionSignature","sourceId":24,"lineNumber":1077,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_importChanges","sourceId":24,"lineNumber":1163,"columnNumber":20,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1163:20\n","nativeSavedFrame":{}},"formattedStack":"validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1077:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1163:20\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1077:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1163:20\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1077:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1163:20\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nvalidateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1077:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1163:20\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1077:47|_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1163:20|
+  - prototype Object
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/moz-essential-domain-fallbacks sync interrupted by shutdown
+console.warn: services.settings: main/mfcdm-origins-list sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+console.warn: services.settings: main/search-config-icons sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/newtab-wallpapers-v2 sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/url-parser-default-unknown-schemes-interventions sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/remote-permissions sync interrupted by shutdown
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.warn: services.settings: main/third-party-cookie-blocking-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/urlbar-persisted-search-terms sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.error: ({details:{id:"b39de954-4216-fecc-150f-7a08e837b373", last_modified:1754960960048, bucket:"main", collection:"search-config-v2", host:"firefox.settings.services.mozilla.com"}})
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+console.error: (new AbortError("IOUtils: Shutting down and refusing additional I/O tasks (NS_ERROR_ABORT)", (void 0), 1132))
+console.error: (new AbortError("IOUtils: Shutting down and refusing additional I/O tasks (NS_ERROR_ABORT)", (void 0), 1132))
+console.error: (new Error("places.sqlite#1: cannot execute operation Interactions.sys.mjs::updateDatabase, the connection is already closing", "resource://gre/modules/Sqlite.sys.mjs", 528))
+JavaScript error: resource://gre/modules/CrashManager.sys.mjs, line 1172: AbortError: IOUtils: Shutting down and refusing additional I/O tasks (NS_ERROR_ABORT)
+1756202141854	SessionStore	ERROR	SessionSaver write() rejected with error: Error: SessionFile is closed(resource:///modules/sessionstore/SessionFile.sys.mjs:407:29) JS Stack trace: write@SessionFile.sys.mjs:407:29
+write@SessionFile.sys.mjs:46:32
+_writeState@SessionSaver.sys.mjs:375:29
+_saveState@SessionSaver.sys.mjs:308:17
+_saveStateAsync@SessionSaver.sys.mjs:354:10
+saveStateAsyncWhenIdle@SessionSaver.sys.mjs:194:14
+requestIdleCallback/<@Timer.sys.mjs:180:15

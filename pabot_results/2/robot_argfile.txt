@@ -1,0 +1,16 @@
+--suite Ecommerce-Robot.Tests.Test3
+--variable CALLER_ID:9cc77d5414394ae7b91746ac0e1d8907
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:12
+--variable PABOTQUEUEINDEX:2
+--variable PABOTLASTLEVEL:Ecommerce-Robot.Tests.Test3
+--listener RobotStackTracer
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\2
+--consolecolors off
+--consolemarkers off
+.

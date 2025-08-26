@@ -1,0 +1,33 @@
+==============================================================================
+Ecommerce-Robot                                                               
+==============================================================================
+Ecommerce-Robot.Tests                                                         
+==============================================================================
+Ecommerce-Robot.Tests.Test6 :: To validate Login form                         
+==============================================================================
+Validate Cards display in the Shopping Page                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\markg\OneDrive\Desktop\ecommerce-robot\tests\test6.robot:18
+    T:  Validate Cards display in the Shopping Page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\markg\OneDrive\Desktop\ecommerce-robot\tests\test6.robot:20
+      Wait until element is located in the page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\markg\OneDrive\Desktop\ecommerce-robot\PO\ShopPage.robot:14
+      Wait Until Element Is Visible    ${Shop_Page_Load}
+      |  ${Shop_Page_Load} = css=.nav-link (str)
+______________________________________________________________________________
+| FAIL |
+Element 'css=.nav-link' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Ecommerce-Robot.Tests.Test6 :: To validate Login form                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Ecommerce-Robot.Tests                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Ecommerce-Robot                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\markg\OneDrive\Desktop\ecommerce-robot\pabot_results\5\output.xml

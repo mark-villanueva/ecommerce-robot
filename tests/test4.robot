@@ -29,7 +29,7 @@ Validate Unsuccessful Login
     Verify error message is correct
 
 Open the browser with the Mortgage payment url
-    Open Browser    ${URL}    Chrome
+    Open Browser    ${URL}    
 
 Wait until it checks and display error message
     Wait Until Element Is Visible    ${Error_Message_Login}    

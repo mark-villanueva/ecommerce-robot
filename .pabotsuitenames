@@ -1,0 +1,10 @@
+datasources:6fd2e09bd895b8297d3463a1229bd96c58fe66de
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:a6f7d75b8b311ff831385661cd3c49875d828aff
+--suite Ecommerce-Robot.Tests.Test1
+--suite Ecommerce-Robot.Tests.Test2
+--suite Ecommerce-Robot.Tests.Test3
+--suite Ecommerce-Robot.Tests.Test4
+--suite Ecommerce-Robot.Tests.Test5
+--suite Ecommerce-Robot.Tests.Test6

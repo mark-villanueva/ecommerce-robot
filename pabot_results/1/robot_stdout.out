@@ -1,0 +1,23 @@
+==============================================================================
+Ecommerce-Robot                                                               
+==============================================================================
+Ecommerce-Robot.Tests                                                         
+==============================================================================
+Ecommerce-Robot.Tests.Test2 :: To validate Login form                         
+==============================================================================
+Validate Unsuccessful Login                                           | PASS |
+------------------------------------------------------------------------------
+Validate Cards display in the Shopping Page                           | PASS |
+------------------------------------------------------------------------------
+Select the Form and navigate to Child Window                          | PASS |
+------------------------------------------------------------------------------
+Ecommerce-Robot.Tests.Test2 :: To validate Login form                 | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Ecommerce-Robot.Tests                                                 | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Ecommerce-Robot                                                       | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\markg\OneDrive\Desktop\ecommerce-robot\pabot_results\1\output.xml

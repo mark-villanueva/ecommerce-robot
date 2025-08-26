@@ -16,11 +16,11 @@ Validate Child Window Functionality
 *** Keywords ***
 Select the link of child window
     Click Link    xpath=//a[contains(text(),'Free Access to InterviewQues/ResumeAssistance/Material')]
-    Sleep    2s
 
 Verify the user is switched to child window
     Switch Window    NEW
-    Element Text Should Be   css=h2    DOCUMENTS REQUEST
+    Wait Until Element Is Visible     css=h1    
+    Element Text Should Be   css=h1    DOCUMENTS REQUEST
 
 Grab the email id from the child window
     ${text}=    Get Text    css=.red

@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation   To validate Login form
 Test Setup      Open the browser with the Mortgage payment url
-# Test Teardown   Close Browser     
+Test Teardown   Close Browser     
 Library         ../customLibraries/Shop.py
 Resource        ../PO/Generic.robot
 Resource        ../PO/LandingPage.robot
