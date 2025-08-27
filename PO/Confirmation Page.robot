@@ -9,7 +9,7 @@ Resource        ../PO/Generic.robot
 
 *** Variables ***
 ${Shop_Page_Load}     css=.nav-link
-${country_location}   //a[text()='India']
+${country_location}   //a[text()='San Marino']
 
 
 *** Keywords ***
