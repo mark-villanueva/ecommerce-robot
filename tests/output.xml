@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.6 on win32)" generated="2025-08-27T12:31:30.922917" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\markg\OneDrive\Desktop\ecommerce-robot\tests">
+<suite id="s1-s1" name="Test6" source="C:\Users\markg\OneDrive\Desktop\ecommerce-robot\tests\test6.robot">
+<test id="s1-s1-t1" name="Validate Unsuccessful Login" line="17">
+<kw name="Open the browser with the Mortgage payment url" owner="Generic" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-27T12:31:31.229965" level="INFO">Opening browser 'firefox' to base url 'https://rahulshettyacademy.com/loginpagePractise/'.</msg>
+<arg>${URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-27T12:31:31.229965" elapsed="8.507131"/>
+</kw>
+<status status="PASS" start="2025-08-27T12:31:31.228892" elapsed="8.509204"/>
+</kw>
+<kw name="Fill the login form" owner="LandingPage">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-27T12:31:39.739112" level="INFO">Typing text 'rahulshettyacademy' into text field 'id=username'.</msg>
+<arg>id=username</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-27T12:31:39.739112" elapsed="0.177384"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2025-08-27T12:31:39.917503" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2025-08-27T12:31:39.939497" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id=password</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-27T12:31:39.916496" elapsed="0.119537"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-08-27T12:31:40.037033" level="INFO">Clicking button 'id=signInBtn'.</msg>
+<arg>id=signInBtn</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-27T12:31:40.037033" elapsed="0.109577"/>
+</kw>
+<arg>${User_Name}</arg>
+<arg>${Invalid_Password}</arg>
+<status status="PASS" start="2025-08-27T12:31:39.738096" elapsed="0.408514"/>
+</kw>
+<kw name="Wait until element is located in the page" owner="LandingPage">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${Error_Message_Login}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-08-27T12:31:40.147603" elapsed="2.097115"/>
+</kw>
+<status status="PASS" start="2025-08-27T12:31:40.147603" elapsed="2.097115"/>
+</kw>
+<kw name="Verify error message is correct" owner="LandingPage">
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2025-08-27T12:31:42.246825" level="INFO">Verifying element 'css=.alert-danger' contains exact text 'Incorrect username/password.'.</msg>
+<arg>${Error_Message_Login}</arg>
+<arg>Incorrect username/password.</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2025-08-27T12:31:42.245829" elapsed="0.018615"/>
+</kw>
+<status status="PASS" start="2025-08-27T12:31:42.245829" elapsed="0.019614"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-27T12:31:42.265443" elapsed="3.640562"/>
+</kw>
+<tag>SMOKE</tag>
+<status status="PASS" start="2025-08-27T12:31:31.228892" elapsed="14.677113"/>
+</test>
+<doc>To validate Login form</doc>
+<status status="PASS" start="2025-08-27T12:31:30.963046" elapsed="14.943951"/>
+</suite>
+<status status="PASS" start="2025-08-27T12:31:30.923816" elapsed="14.984173"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">SMOKE</stat>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
+<stat name="Test6" id="s1-s1" pass="1" fail="0" skip="0">Tests.Test6</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

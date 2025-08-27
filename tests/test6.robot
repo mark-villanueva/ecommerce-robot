@@ -14,8 +14,14 @@ Resource        ../PO/Confirmation Page.robot
 ${country_name}        India
 
 *** Test Cases ***
+Validate Unsuccessful Login
+    [Tags]    SMOKE
+    LandingPage.Fill the login form   ${User_Name}    ${Invalid_Password}
+    LandingPage.Wait until element is located in the page   
+    LandingPage.Verify error message is correct
 
-Validate Cards display in the Shopping Page
+End to end ecommerce test
+    [Tags]    REGRESSION
     LandingPage.Fill the login form   ${User_Name}    ${Valid_Password}
     ShopPage.Wait until element is located in the page
     ShopPage.Verify card titles in the shop page
